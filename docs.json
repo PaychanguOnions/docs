@@ -89,8 +89,8 @@
     }
   },
   "logo": {
-    "light": "/logo/logo3.png",
-    "dark": "/logo/logo3.png"
+    "light": "https://www.disbursio.com/_next/image?url=%2Fimages%2Flogo3.png&w=828&q=75",
+    "dark": "https://www.disbursio.com/_next/image?url=%2Fimages%2Flogo3.png&w=828&q=75"
   },
   "navbar": {
     "links": [
