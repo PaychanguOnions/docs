@@ -3,10 +3,6 @@
   "theme": "mint",
   "name": "Disbursio",
   "description": "Instant cash disbursements for organizations operating in Africa, supporting transfers to banks and mobile wallets",
-  "modeToggle": {
-    "default": "light",
-    "isHidden": true
-  },
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -21,9 +17,21 @@
           {
             "group": "Get Started",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              {
+                "page": "introduction",
+                "icon": "rocket-launch",
+                "label": "Introduction"
+              },
+              {
+                "page": "quickstart",
+                "icon": "bolt",
+                "label": "Quick Start"
+              },
+              {
+                "page": "development",
+                "icon": "code",
+                "label": "Development"
+              }
             ]
           },
           {
@@ -81,8 +89,8 @@
     }
   },
   "logo": {
-    "light": "/logo3.png",
-    "dark": "/logo3.png"
+    "light": "/logo/logo3.png",
+    "dark": "/logo/logo3.png"
   },
   "navbar": {
     "links": [
